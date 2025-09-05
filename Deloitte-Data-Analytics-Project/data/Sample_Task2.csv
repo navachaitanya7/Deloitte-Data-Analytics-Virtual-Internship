@@ -1,0 +1,4 @@
+Factory,Downtime,DeviceType
+Factory A,120,LaserCutter
+Factory B,340,CNC
+Factory C,210,Furnace
