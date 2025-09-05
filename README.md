@@ -1,38 +1,79 @@
 # Deloitte Data Analytics Virtual Internship
 
-This repository contains all the work completed for the Deloitte Data Analytics Virtual Internship. The project focuses on analyzing machine telemetry data to derive key business insights and showcase data analysis skills.
+This repository contains my completed work for the **Deloitte Data Analytics Virtual Internship** (via Forage).  
+The program focused on practical applications of **data analysis, visualization, and forensic technology** using real-world inspired datasets.
 
-## 📝 Project Overview
+---
 
-The project's main objective was to analyze telemetry data from four Daikibo factories to answer critical business questions:
+## 📂 Repository Structure
 
-1.  In which location did machines break the most?
-2.  What are the machines that broke most often in that location?
+```
+Deloitte-Data-Analytics-Virtual-Internship/
+│
+├── README.md
+│
+├── Certificate/
+│   └── Deloitte_Data_Analyst_Certificate.png
+│
+├── Task-Samples/
+│   ├── Sample_Task1.json
+│   ├── Sample_Task2.csv
+│   └── ... (additional provided samples)
+│
+└── Completed-Work/
+    ├── Factory_Downtime_Tableau_Screenshot.png
+    ├── down_time_per_factory.csv
+    ├── down_time_per_device_type.csv
+    ├── daikibo_telemetry_with_unhealthy.csv
+    └── Task5_Equality_Table_Updated.xlsx
+```
 
-I utilized data unification and analysis techniques to provide a clear and actionable dashboard for the client.
+---
 
-## 📁 Repository Structure
+## 📝 Tasks Completed
 
--   **`data/`**: This folder contains all the datasets used in the project, including the raw telemetry data (`daikibo-telemetry-data.json`) and other sample data files.
--   **`documentation/`**: Here you will find project guides, requirements, and my completion certificates.
--   **`visualizations/`**: This directory holds the Tableau dashboard file (`Deloitte Task 2 Tableau Book.twbx`) and a screenshot of the final dashboard (`Dashboard 1.png`).
+1. **Data Cleaning & Preprocessing**
+   - Worked with JSON/CSV data formats.  
+   - Created calculated fields (e.g., *Unhealthy* downtime measure).  
 
-## 📊 Key Achievements
+2. **Visualization in Tableau**
+   - **Downtime per Factory** (bar chart).  
+   - **Downtime per Device Type** (bar chart).  
+   - Interactive dashboard (factory filter to show device downtime).  
 
-* Analyzed a large JSON dataset of machine telemetry readings.
-* Calculated total machine downtime for different factories and machine types.
-* Created an interactive dashboard in Tableau to visualize and compare factory performance.
-* Identified the worst-performing factory and the machines that failed most often within that location.
+3. **Excel Analysis**
+   - Updated equality tables with improved formatting.  
+   - Performed data analysis using pivot tables and Excel formulas.  
 
-## 🛠️ Technologies Used
+4. **Final Dashboard**
+   - Combined insights into a Tableau dashboard.  
+   - Selected the factory with maximum downtime for deeper analysis.  
 
-* **Tableau**: For data visualization and dashboard creation.
-* **Microsoft Excel**: Used for data manipulation and analysis.
+---
 
-## 📜 Certificates
+## 🛠️ Tools & Technologies
 
--   [Deloitte Data Analyst Certificate](documentation/Deloitte_Data_Analyst_Certificate.png)
+- **Tableau** → Data visualization and dashboards.  
+- **Excel** → Data cleaning and tabular analysis.  
+- **Python / CSV / JSON** → Handling raw datasets.  
 
-## 📞 Contact
+---
 
-Feel free to reach out to me via my GitHub profile if you have any questions about this project.
+## 📊 Screenshots
+
+### Tableau Dashboard
+![Dashboard Screenshot](Completed-Work/Factory_Downtime_Tableau_Screenshot.png)
+
+---
+
+## 📜 Certificate of Completion
+
+![Certificate](Certificate/Deloitte_Data_Analyst_Certificate.png)
+
+---
+
+## 🚀 About the Program
+The Deloitte Virtual Internship (via Forage) simulates real-world analytics tasks such as:  
+- Cleaning and analyzing data.  
+- Creating interactive dashboards.  
+- Presenting insights in a business-oriented manner.  
